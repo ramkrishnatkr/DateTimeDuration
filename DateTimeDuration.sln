@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duration.UI", "Duration.UI\Duration.UI.csproj", "{8DBCD09A-2469-4FDC-A8DF-A0F9F2C47F7C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{37559514-6A1F-456E-80FE-B688DA507560} = {37559514-6A1F-456E-80FE-B688DA507560}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duration.Logic", "Duration.Logic\Duration.Logic.csproj", "{37559514-6A1F-456E-80FE-B688DA507560}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DBCD09A-2469-4FDC-A8DF-A0F9F2C47F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBCD09A-2469-4FDC-A8DF-A0F9F2C47F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBCD09A-2469-4FDC-A8DF-A0F9F2C47F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBCD09A-2469-4FDC-A8DF-A0F9F2C47F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37559514-6A1F-456E-80FE-B688DA507560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37559514-6A1F-456E-80FE-B688DA507560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37559514-6A1F-456E-80FE-B688DA507560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37559514-6A1F-456E-80FE-B688DA507560}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
